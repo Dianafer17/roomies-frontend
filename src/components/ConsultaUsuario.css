@@ -1,0 +1,78 @@
+/* Contenedor general */
+.consulta-usuario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* Tarjeta de usuario */
+.consulta-usuario-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: left;
+}
+
+/* Títulos */
+.consulta-usuario-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Información del usuario */
+.consulta-usuario-card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone-field button {
+    margin-left: auto;
+}
+
+/* Botón Modificar */
+.edit-button {
+    background-color: #a8e063;
+    /* Verde limón */
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #8cd055;
+}
+
+/* Botón Cambiar Contraseña */
+.change-password-button {
+    display: block;
+    width: 100%;
+    background-color: #a8e063;
+    /* Verde limón */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.change-password-button:hover {
+    background-color: #8cd055;
+}

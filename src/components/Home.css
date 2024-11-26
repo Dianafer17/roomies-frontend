@@ -1,0 +1,63 @@
+/* Contenedor principal */
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Opciones principales */
+.home-options {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+/* Opción individual (íconos) */
+.home-option {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    /* Necesario para posicionar el menú */
+}
+
+.home-option img {
+    width: 80px;
+    height: 80px;
+}
+
+.home-option p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Menú desplegable */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    /* Muestra el menú debajo del ícono */
+    left: 50%;
+    /* Centra el menú horizontalmente */
+    transform: translateX(-50%);
+    background-color: #000;
+    /* Fondo negro */
+    color: #fff;
+    /* Texto blanco */
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    width: 150px;
+}
+
+.dropdown-menu p {
+    margin: 5px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+.dropdown-menu p:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Efecto hover */
+}

@@ -1,0 +1,60 @@
+.create-account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Fondo degradado */
+  }
+  
+  .create-account-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .create-account-box h1 {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-list label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .form-list input,
+  .form-list select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
